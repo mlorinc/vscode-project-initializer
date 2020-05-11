@@ -11,5 +11,12 @@
 		],
 		"triple-equals": true
 	},
-	"defaultSeverity": "warning"
+	"defaultSeverity": "warning",
+	"linterOptions": {
+		"exclude": [
+			"node_modules",
+			".vscode-test",
+			"test-resources"
+		]
+	}
 }
